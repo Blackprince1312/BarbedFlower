@@ -1,0 +1,27 @@
+body {
+  background-color: #333333; }
+
+#wrapper {
+  background-color: #AF1641; }
+
+#logo h1 {
+  margin-left: 100px; }
+  #logo h1 a {
+    color: white;
+    text-decoration: none; }
+
+#menu ul {
+  margin: 0px;
+  padding: 0;
+  list-style: none; }
+#menu li {
+  padding: 10px 16px;
+  display: inline-block;
+  font-size: 20px; }
+#menu a {
+  color: white;
+  text-decoration: none; }
+#menu a:hover {
+  background-color: #DC572E; }
+
+/*# sourceMappingURL=index.css.map */

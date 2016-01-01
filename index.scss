@@ -1,0 +1,41 @@
+$footer-color:#333333;
+$links:white;
+$nav:#DC572E;
+$pink:#AF1641;
+body {
+	background-color: $footer-color;
+}
+
+#wrapper {
+	background-color: $pink;
+}
+
+#logo {
+	h1 {
+		margin-left: 100px;
+		a {
+			color: $links;
+			text-decoration: none;
+		}
+	}
+}
+
+#menu {
+	ul {
+		margin: 0px;
+		padding: 0;
+		list-style: none;
+	}
+	li {
+		padding: 10px 16px;
+		display: inline-block;
+		font-size: 20px;
+	}
+	a {
+		color: $links;
+		text-decoration: none;
+	}
+	a:hover {
+		background-color: $nav;
+	}
+}
